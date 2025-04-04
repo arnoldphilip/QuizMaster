@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359572290949",
+    "project_id": "tna-qui",
+    "storage_bucket": "tna-qui.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359572290949:android:fa1412530860a383e418ec",
+        "android_client_info": {
+          "package_name": "com.example.tna"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTtjdSB-oq97iba_7soFSNNfGKSNKOusY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

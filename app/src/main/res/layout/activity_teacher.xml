@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <!-- Top Row (Welcome Message & Logout) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:paddingBottom="10dp">
+
+        <!-- Welcome Message -->
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome, Teacher"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"/>
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <!-- Generate Quiz Button -->
+    <Button
+        android:id="@+id/buttonGenerateQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Quiz"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Title for Quiz List -->
+    <TextView
+        android:id="@+id/textViewQuizzesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz History"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"/>
+
+    <!-- List of Quizzes -->
+    <ListView
+        android:id="@+id/listViewQuizzes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:background="@android:color/white"/>
+
+    <!-- Refresh Button -->
+    <Button
+        android:id="@+id/buttonRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

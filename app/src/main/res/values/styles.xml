@@ -1,0 +1,11 @@
+<resources>
+    <!-- Main App Theme -->
+    <style name="Theme.TNA" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="CustomListText">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>
